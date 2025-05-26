@@ -208,44 +208,31 @@ hr {
 
 /* Red Wrap */
 #r {
-	background: #222222;
-	padding-top: 35px;
-	padding-bottom: 35px;
 }
 
 #r h4 {
-	color: #eeeeee;
 	font-weight: 700;
 }
 
 #r p {
-	color: #eeeeee;
 }
 
 /* Blue Wrap */
 
 #blue {
-	background: #222222;
-	padding-top: 35px;
-	padding-bottom: 35px;
 }
 
 #blue h4 {
-	color: #eeeeee;
 	font-weight: 700;
 }
 
 #blue p {
-	color: #eeeeee;
 }
 
 
 
 /* Footer Wrap */
 #f {
-	background: #1a1a1a;
-	padding-top: 30px;
-	padding-bottom: 30px;
 	color: #eeeeee;
 }
 
@@ -280,8 +267,6 @@ hr {
 
 
 .wb {
-	padding-top: 35px;
-	margin-bottom: 0px;
 }
 
 .wb h4 {
@@ -289,7 +274,6 @@ hr {
 }
 
 .desc {
-	padding-top: 35px;
 }
 
 .desc h4 {
