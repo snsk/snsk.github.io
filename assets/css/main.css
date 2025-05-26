@@ -14,11 +14,11 @@
 /* OVERALL ASPECT */
 
 body {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
-    color: #555;
+    color: #555555;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
@@ -30,7 +30,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
-    color: #333;
+    color: #111111;
 }
 
 
@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     line-height: 28px;
     margin-bottom: 25px;
+    color: #222222;
 }
 
 .centered {
@@ -46,7 +47,8 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #222222;
+    text-decoration: underline;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -58,8 +60,8 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
+    color: #000000;
+    text-decoration: underline;
     outline: 0;
 }
 
@@ -72,11 +74,11 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #cccccc;
     margin: 1em 0;
     padding: 0;
 }
@@ -90,23 +92,33 @@ a:after {
 }
 
 .navbar-inverse {
-	background: #2d2d2d;
-	border-color: #2d2d2d;
+	background: #1a1a1a;
+	border-color: #1a1a1a;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #ff7878
+	background: #000000;
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #eeeeee;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: #ffffff;
 }
 
 .navbar-inverse .navbar-brand {
-	color: #999999;
+	color: #eeeeee;
 	font-weight: bolder;
 	font-size: 22px;
 	letter-spacing: 1px;
 }
 
 .navbar-inverse .navbar-brand i {
-	color: #ff7878;
+	color: #ffffff;
 	font-size: 22px;
 	letter-spacing: 1px;
 }
@@ -133,7 +145,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	background-color: #111111;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -156,24 +168,22 @@ a:after {
 
 #headerwrap h1 {
 	margin-top: 100px;
-	color: #FFFFFF;
+	color: #ffffff;
 	font-size: 60px;
 	font-weight: 300;
 	letter-spacing: 3px;
-    text-shadow: 0 0 10px #666666;
 }
 
 #headerwrap h2 {
-	color: #FFFFFF;
+	color: #ffffff;
 	font-size: 40px;
 	font-weight: 700;
 	letter-spacing: 2px;
-    text-shadow: 0 0 10px #666666;
 }
 
 /* Dark Grey Wrap */
 #dg {
-	background: #e0e0e0;
+	background: #f7f7f7;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center;
@@ -185,7 +195,7 @@ a:after {
 
 /* Light Grey */
 #lg {
-	background: #ebebeb;
+	background: #f7f7f7;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center;
@@ -198,54 +208,55 @@ a:after {
 
 /* Red Wrap */
 #r {
-	background: #ff7878;
+	background: #222222;
 	padding-top: 35px;
 	padding-bottom: 35px;
 }
 
 #r h4 {
-	color: white;
+	color: #eeeeee;
 	font-weight: 700;
 }
 
 #r p {
-	color: white;
+	color: #eeeeee;
 }
 
 /* Blue Wrap */
 
 #blue {
-	background: #3498db;
+	background: #222222;
 	padding-top: 35px;
 	padding-bottom: 35px;
 }
 
 #blue h4 {
-	color: white;
+	color: #eeeeee;
 	font-weight: 700;
 }
 
 #blue p {
-	color: white;
+	color: #eeeeee;
 }
 
 
 
 /* Footer Wrap */
 #f {
-	background: #2d2d2d;
+	background: #1a1a1a;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	color: #eeeeee;
 }
 
 #f i {
-	color: #bdbdbd;
+	color: #dddddd;
 	font-size: 30px;
 	padding: 20px;
 }
 
 #f i:hover {
-	color: #ff7878;
+	color: #ffffff;
 }
 
 /****** SECTIONS *****/
@@ -259,8 +270,12 @@ a:after {
 }
 
 .w i {
-	color: #ff7878;
+	color: #333333;
 	font-size: 30px;
+}
+
+.w i:hover {
+	color: #000000;
 }
 
 
@@ -282,9 +297,13 @@ a:after {
 }
 
 .desc i {
-	color: #ff7878;
+	color: #333333;
 	font-size: 12px;
 	padding: 5px;
+}
+
+.desc i:hover {
+	color: #000000;
 }
 
 /***** MODAL CONTACT *****/
@@ -294,8 +313,8 @@ a:after {
 }
 
 .modal-header {
-	background: #bdbdbd;
-	color: white;
+	background: #222222;
+	color: #eeeeee;
 }
 
 .modal-header h4 {
@@ -303,17 +322,77 @@ a:after {
 }
 
 .modal-body {
-	background: #f2f2f2;
+	background: #ffffff;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
-    color: #555;
+    color: #222222;
 }
 
 .modal-footer {
-	background: #f2f2f2;
+	background: #f0f0f0;
 	margin-top: 0px; 
 }
+
+/* ==========================================================================
+   General Input Styling (Flattening)
+   ========================================================================== */
+input.form-control,
+textarea.form-control {
+    box-shadow: none !important;
+    border-radius: 2px;
+    border-color: #cccccc; /* Adjusted for visibility on white bg */
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+    border-color: #bbbbbb; /* Darker border on focus */
+    box-shadow: none !important;
+}
+
+/* ==========================================================================
+   Button Styling (Flattening & Theming)
+   ========================================================================== */
+.btn {
+    text-shadow: none;
+    background-image: none; /* Remove gradients for all buttons */
+    border-radius: 2px;
+    box-shadow: none;
+    border-width: 1px; /* Ensure border is visible */
+}
+
+/* Default button - light with dark text */
+.btn-default {
+    color: #222222;
+    background-color: #f7f7f7;
+    border-color: #dddddd;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+    color: #000000;
+    background-color: #e7e7e7;
+    border-color: #bbbbbb;
+}
+
+/* Primary button - dark with light text */
+.btn-primary {
+    color: #ffffff;
+    background-color: #222222;
+    border-color: #222222;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
 
 /* ==========================================================================
    Pricing Tables
@@ -325,8 +404,8 @@ a:after {
 
 .pricing-option .pricing-top {
     position: relative;
-    background: #222;
-    color: white;
+    background: #333333;
+    color: #ffffff;
     text-align: center;
     font-weight: bold;
 
@@ -342,7 +421,8 @@ a:after {
     position: absolute;
     top: 0;
     left: 0;
-    background: #1abc9c;
+    background: #000000;
+    color: #ffffff;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: bold;
@@ -350,7 +430,7 @@ a:after {
 }
 
 .special .pricing-top {
-    background: black;
+    background: #000000;
 }
 
 .pricing-option .pricing-edition {
@@ -386,13 +466,13 @@ a:after {
 .pricing-option ul {
     list-style: none;
     margin: 0;
-    background: #eee;
+    background: #f7f7f7;
     text-align: center;
     padding-left: 0px;
 }
 
 .pricing-option ul li {
-    border-bottom: solid 1px #e1e1e1;
+    border-bottom: solid 1px #dddddd;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -403,12 +483,12 @@ a:after {
     font-size: 18px;
     font-weight: bold;
     padding: 15px 10px;
-    color: white;
-    background: #1abc9c;
+    color: #ffffff;
+    background: #222222;
 }
 
 .pricing-option .pricing-signup:hover {
-    background: #ff7878;
+    background: #000000;
 }
 
 
