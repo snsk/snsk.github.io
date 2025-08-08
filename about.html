@@ -16,6 +16,8 @@
 
     <!-- Custom styles -->
     <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="assets/js/Chart.js"></script>
 </head>
 
 <body>
@@ -34,7 +36,6 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">ホーム</a></li>
                     <li class="active"><a href="about.html">プロフィール</a></li>
-                    <li><a class="icon-link" target="_blank" href="mailto:shinsk@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -46,7 +47,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h1 class="fade-in">プロフィール</h1>
-                    <h2 class="fade-in">品質と技術の架け橋となるエンジニア</h2>
+                    <h2 class="fade-in">こんにちは！</h2>
                 </div>
             </div>
         </div>
@@ -59,8 +60,9 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="centered mb-5">
                         <img class="img-circle" src="assets/img/ld_profile.jpg" style="width: 200px; height: 200px;">
-                        <h3 class="mt-4">しんすく(け) さん</h3>
+                        <h3 class="mt-4">しんすく(け) さん。</h3>
                         <p class="lead">
+                            と呼ばれることが多いです。<br>
                             ソフトウェア品質の会社でR&D部門をやってます。<br>
                             あと元気なゲームQA会社のCTO。
                         </p>
@@ -76,40 +78,64 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1">
-                    <h3>コミュニティ活動</h3>
+                    <h3>コミュニティ</h3>
                     <p>みんなでワクワクしています！</p>
-                    <ul style="list-style: none; padding: 0;">
-                        <li><i class="fa fa-circle-o"></i> <a href="https://cysec.dendai.ac.jp/faculty/mathuki//">東京電機大学 CySEC（非常勤講師）</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a href="https://sites.google.com/site/testautomationresearch/">STAR - テスト自動化研究会</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a href="http://www.jasst.jp/index.html">JaSST Tokyo</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a href="https://committee.iso.org/home/jtc1sc7">ISO/IEC JTC1/SC7</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a href="http://www.aster.or.jp/business/testtool_wg.html">ASTER ToolWG</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a href="http://www.w3.org/Style/CSS/members">W3C(css-wg)</a></li>
-                    </ul>
-
-                    <h3 class="mt-5">共著・共訳</h3>
+                    <p>
+                        <i class="fa fa-circle-o"></i> <a href="https://cysec.dendai.ac.jp/faculty/mathuki//">東京電機大学 CySEC（非常勤講師）</a><br/>
+                        <i class="fa fa-circle-o"></i> <a href="https://sites.google.com/site/testautomationresearch/">STAR - テスト自動化研究会</a><br/>
+                        <i class="fa fa-circle-o"></i> <a href="http://www.jasst.jp/index.html">JaSST Tokyo</a><br/>
+                        <i class="fa fa-circle-o"></i> <a href="https://committee.iso.org/home/jtc1sc7">ISO/IEC JTC1/SC7</a><br/>
+                        <i class="fa fa-circle-o"></i> <a href="http://www.aster.or.jp/business/testtool_wg.html">ASTER ToolWG</a><br/>
+                        <i class="fa fa-circle-o"></i> <a href="http://www.w3.org/Style/CSS/members">W3C(css-wg)</a><br/>
+                    </p>
+                    <h3>共著/共訳</h3>
                     <p>かたちになったもの</p>
-                    <ul style="list-style: none; padding: 0;">
-                        <li><i class="fa fa-circle-o"></i> <a href="http://www.amazon.co.jp/gp/product/B00R48BEEW?btkr=1">システムテスト自動化 標準ガイド（共訳）</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a href="http://www.amazon.co.jp/dp/4798037044">Androidアプリテスト技法（共著）</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a href="http://www.aster.or.jp/business/testtool_wg/pdf/Testtool_beginningGuide_Version1.0.0.pdf">テストツールまるわかりガイド（共著）</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a href="https://jstqb.jp/dl/JSTQB-SyllabusFoundation-MobileSpecialist_Version2019.J01.pdf">JSTQB Foundation Level Specialist シラバス モバイルアプリケーションテスト担当者（共訳）</a></li>
-                    </ul>
+                    <p>
+                        <i class="fa fa-circle-o"></i> <a href="http://www.amazon.co.jp/gp/product/B00R48BEEW?btkr=1"> システムテスト自動化 標準ガイド（共訳）</a><br/>
+                        <i class="fa fa-circle-o"></i> <a href="http://www.amazon.co.jp/dp/4798037044"> Androidアプリテスト技法（共著） </a><br/>
+                        <i class="fa fa-circle-o"></i> <a href="http://www.aster.or.jp/business/testtool_wg/pdf/Testtool_beginningGuide_Version1.0.0.pdf"> テストツールまるわかりガイド（共著）</a><br/>
+                        <i class="fa fa-circle-o"></i> <a href="https://jstqb.jp/dl/JSTQB-SyllabusFoundation-MobileSpecialist_Version2019.J01.pdf"> JSTQB Foundation Level Specialist シラバス モバイルアプリケーションテスト担当者（共訳）</a><br/>				
+                    </p>
                 </div>
 
                 <div class="col-lg-5">
-                    <h3>講演・寄稿・取材履歴</h3>
-                    <p>お話/投稿させて/取材 いただきました（一部・順不同）</p>
-                    <ul style="list-style: none; padding: 0; font-size: 0.9em;">
-                        <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://wacate.jp/workshops/2023winter/program/#close_ses">WACATE2023 招待講演</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://jstqb.jp/prinfo/conference2023/">JSTQBカンファレンス2023 基調講演</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://www.juse.jp/sqip/symposium/2023/timetable/sts/">SQiPシンポジウム2023 STS</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://cedil.cesa.or.jp/cedil_sessions/view/2811">CEDEC2023 ゲームQAの破壊的技術</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://www.jasst.jp/symposium/jasst23tokyo/details.html#D6">JaSST23 Tokyo AIテスト自動化</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a target="_blank" href="http://jasst.jp/symposium/jasst17tokyo/report.html#tutorial1">JaSST17 Tokyo IoT時代のテスト技術</a></li>
-                        <li><i class="fa fa-circle-o"></i> <a target="_blank" href="http://jasst.jp/symposium/jasst12kyushu/report.html">JaSST12 Kyushu 招待講演</a></li>
-                        <li><i class="fa fa-circle-o"></i> その他多数の講演・執筆活動</li>
-                    </ul>
+                    <h3>講演/寄稿/取材履歴</h3>
+                    <p>お話/投稿させて/取材 いただきました 一部/順不同 です。</p>
+                    <p>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://wacate.jp/workshops/2023winter/program/#close_ses">WACATE2023 招待講演 WACATEから？？？へ　～WACATEで育ったあるテスターの軌跡と創りたい技術の未来～</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://jstqb.jp/prinfo/conference2023/">JSTQBカンファレンス2023 基調講演 AIテスティング・モバイルアプリケーションテストシラバスのポイントと活用方法 シラバス翻訳からの学び</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://www.juse.jp/sqip/symposium/2023/timetable/sts/">SQiPシンポジウム2023 Special Talk Session (STS)</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://cedil.cesa.or.jp/cedil_sessions/view/2811">CEDEC2023「品質管理に、革命を。」の本当のところ。これから興るゲームQAの破壊的技術、汎用エージェントの取り組み</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://gtmf.jp/2023/osaka/session.html">GTMF2023 人海戦術からAI戦術に！テスティングソリューション「Playable!」が目指す次世代QAスタイル</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://www.jasst.jp/symposium/jasst23tokyo/details.html#D6">JaSST23 Tokyo AIテスト自動化ツールの向かう先</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://www.jasst.jp/symposium/jasstreview21/report.html#S6">JaSST Review「ビジネスの成長に合わせてソフトウェアを進化させ続ける秘訣」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://jasst.jp/symposium/jasst17tokyo/report.html#tutorial1">JaSST17 Tokyo「IoT時代に立ち向かうテスト・ファジング技術入門」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://www.veriserve.co.jp/asset/advanced-tech-iot1.html">テストエンジニアから見た構造物としての「IoT」とそのテストにおけるアプローチの考察</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://www.veriserve.co.jp/seminar-event/2020/vai2020-repo.html">ベリサーブ アカデミック イニシアティブ 2020DX時代に求められるソフトウェア品質とは？</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://enablers.connpass.com/event/224556/">第6回Enablersの会	エキスパートテストエンジニアはテストの知見をどう蓄積し活用しているか？</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://docs.google.com/presentation/d/1WMXMGFbhEtoHOE2N7MpozlFiSx94_NeRJXjd5RBh8G8/edit?usp=sharing">テスト自動化カンファレンス2014「Test Automation Patterns 2014 冬コレ！」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://softwaretest.jp/labo/seminar/labo-326/">第1回 じどうかの窓口 セミナー「テストツールの使い分け OSS vs 商用ツール」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://techtalk4.labs.gree.jp/">GREE TeckTalk#4「モバイルテスティング・クロニクル」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://sites.google.com/site/testautomationresearch/event">システムテスト自動化カンファレンス2013「開会挨拶」 </a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://quesqa.com/ques3_report/">第3回Ques「テスト自動化技術概論アルファ版」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="">SQiPシンポジウム2013 品質保証部長の会「超上流からの品質保証」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://www.juse.jp/sqip/library/shousai/?id=155">SQiPシンポジウム2013 事例発表「超短期開発プロジェクト/非クリティカルシステムに向けた軽量品質保証概念とその最上流プロセスの提案」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://www.jasst.jp/symposium/jasst13hokkaido/report.html#tutorial">JaSST13 Hokkaido「テスト自動化分析 - 頼れる大人のテストエンジニアリングと金勘定 -」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://efcl.info/2013/0724/res3351/">Testing Casual Talks #1「DevQUT!」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="">SQuBOKユーザー会第10回勉強会「軽量品質保証のコンセプトとその要件」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://wacate.jp/2013/summer/gaiyo.html">WACATE2013夏 BPPセッション「フィードバック・ループを作ろう！」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://www.jasst.jp/symposium/jasst13tohoku/report.html">JaSST13 Tohoku「ソフトウェアテストの7原則とゲンバで向き合う」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://jasst.jp/symposium/jasst13tokyo/details.html#B2">JaSST13 Tokyo 「なれる！Test Automator！～テスト自動化を成功に導く３つの真実～」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://jasst.jp/symposium/jasst12kyushu/report.html">JaSST12 Kyushu 招待講演「世界最初の"モバイル"テストエンジニアがみた'00年代とこれから」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="">SWATUG第1回勉強会「テスト自動化知識体系 TABOKプレビュー」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="">第1回Androidテスト祭り「閉会挨拶」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="https://www.slideshare.net/ussy/android-developertesting">Developer Summit 2012「実践Android Developer Testing」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://jasst.jp/symposium/jasst12tokyo/details.html#B4">JaSST'12 Tokyo 「テストツール活用の処方」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://jasst.jp/archives/jasst11e.html#project6">JaSST11 Tokyo 「ビューティフルテスティング」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://jasst.jp/archives/jasst11cedec.html">JaSST11 CEDEC「SoftwareTesting Sa・Ga ～ソフトウェアテスターの苦闘・工夫の歴史を振り返る～」</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://www.jasst.jp/archives/jasst10e.html#program">JaSST10 Tokyo魁!!智美塾 ～ 百"家"繚乱！テストメソドロジ進化論！</a><br/>
+                        <i class="fa fa-circle-o"></i> <a target="_blank" href="http://blogs.itmedia.co.jp/katabami/2009/09/2009917udx-by-i.htm">ソフトウェアテスト・ミーティング 2009「テストツールを活用して"やる気"を引き出すアプローチ」</a><br/>
+                    </p>	
                 </div>
             </div>
         </div>
@@ -120,63 +146,90 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h3>活動・成果物</h3>
-                    
-                    <div class="work-item">
-                        <h4>おすすめブログエントリ</h4>
-                        <p>ブログエントリの中でオススメをピックアップしました。</p>
-                        <ul style="list-style: none; padding: 0;">
-                            <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://note.com/_snsk/n/n16fc4c10099c">LLM組み込みデータ駆動型のE2E自動テスト</a></li>
-                            <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://note.com/_snsk/n/n4ea3ddf8ad7c">「lsコマンド」をテストする</a></li>
-                            <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://note.com/_snsk/n/nbfb1f0cc615b">チームのテスト自動化がテストピラミッドに沿えているかをどうやって計測するのか</a></li>
-                        </ul>
+                    <div class="row">
+                        <div class="col-lg-6 centered">
+                            <img src="assets/img/logo.png" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>おすすめブログエントリ</h3>
+                            <p>ブログエントリの中でオススメをピックアップしました。ご笑覧ください。</p>
+                            <p>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="https://note.com/_snsk/n/n16fc4c10099c"> LLM組み込みデータ駆動型のE2E自動テスト </a> <br/>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="https://note.com/_snsk/n/n4ea3ddf8ad7c"> 「lsコマンド」をテストする </a> <br/>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="https://note.com/_snsk/n/nbfb1f0cc615b"> チームのテスト自動化がテストピラミッドに沿えているかをどうやって計測するのか </a> <br/>
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="work-item">
-                        <h4>動画・スライド・寄稿記事</h4>
-                        <p>動画やスライド、寄稿した記事などを掲載しています。</p>
-                        <ul style="list-style: none; padding: 0;">
-                            <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://docs.google.com/presentation/d/1zz-1Rd34LGfAPisAKkV2Uo4s6NcAxzVJ/edit?usp=sharing&ouid=109917086349660006897&rtpof=true&sd=true">DevQUT!</a></li>
-                            <li><i class="fa fa-caret-square-o-right"></i> <a target="_blank" href="https://www.dropbox.com/s/c1s9e7plcqyh9t5/ATEC_FES02_6_%E9%96%89%E4%BC%9A%E6%8C%A8%E6%8B%B6.flv">第2回Androidテスト祭り閉会挨拶 [動画/13min]</a></li>
-                            <li><i class="fa fa-caret-square-o-right"></i> <a target="_blank" href="http://youtu.be/pIDQ46tSmhY?t=2m18s">ソフトウェアテストな人同士で合わせておきたい5つの概念 [動画/18min]</a></li>
-                            <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://docs.google.com/presentation/d/1n9uPfJ52YJlOyEPTWnkCN5MWNwHUSZ-9/edit?usp=sharing&ouid=109917086349660006897&rtpof=true&sd=true">品質保証組織デザインのレイヤ構造</a></li>
-                            <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://docs.google.com/presentation/d/1zz-1Rd34LGfAPisAKkV2Uo4s6NcAxzVJ/edit?usp=sharing&ouid=109917086349660006897&rtpof=true&sd=true">テスト自動化知識体系「TABOK」のご紹介</a></li>
-                            <li><i class="fa fa-circle-o"></i> <a target="_blank" href="http://wacate.jp/magazine/vol019.html">WACATE-Magazine Vol.19 「これからのWeb技術とテスト」</a></li>
-                            <li><i class="fa fa-circle-o"></i> <a target="_blank" href="http://wacate.jp/magazine/vol046.html">WACATE-Magazine 最終号 「ソフトウェアの品質って何だろう」</a></li>
-                        </ul>
+                    <br><br>
+                    <hr>
+                    <br><br>
+
+                    <div class="row">
+                        <div class="col-lg-6 centered">
+                            <img src="assets/img/p02.png" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>動画やスライド、寄稿記事</h3>
+                            <p>動画やスライド、寄稿した記事などを掲載しています。</p>
+                            <p>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="https://docs.google.com/presentation/d/1zz-1Rd34LGfAPisAKkV2Uo4s6NcAxzVJ/edit?usp=sharing&ouid=109917086349660006897&rtpof=true&sd=true"> DevQUT! </a> <br/>
+                                <i class="fa fa-caret-square-o-right"></i> <a target="_blank" href="https://www.dropbox.com/s/c1s9e7plcqyh9t5/ATEC_FES02_6_%E9%96%89%E4%BC%9A%E6%8C%A8%E6%8B%B6.flv"> 第2回Androidテスト祭り閉会挨拶 「"モバイル"コンテキストにおけるソフトウェアテストの課題」 [動画/13min]  </a> <br/>
+                                <i class="fa fa-caret-square-o-right"></i> <a target="_blank" href="http://youtu.be/pIDQ46tSmhY?t=2m18s"> ソフトウェアテストな人同士で合わせておきたい5つの概念 [動画/18min] </a> <br/>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="https://docs.google.com/presentation/d/1n9uPfJ52YJlOyEPTWnkCN5MWNwHUSZ-9/edit?usp=sharing&ouid=109917086349660006897&rtpof=true&sd=true">品質保証組織デザインのレイヤ構造</a> <br/>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="https://docs.google.com/presentation/d/1zz-1Rd34LGfAPisAKkV2Uo4s6NcAxzVJ/edit?usp=sharing&ouid=109917086349660006897&rtpof=true&sd=true">テスト自動化知識体系「TABOK」のご紹介</a> <br/>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="https://docs.google.com/presentation/d/1G1xnih7TYIkNUfmppcY7RjMrAbMBfPS_/edit?usp=sharing&ouid=109917086349660006897&rtpof=true&sd=true">ソフトウェア品質の概念の遷移と品質モデル/演習付き</a> <br/>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="http://juse-sqip.jp/vol14/qualityone_02.html"> Quality One 人材育成 「勉強会のつくりかた」 </a> <br/>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="http://wacate.jp/magazine/vol019.html">WACATE-Magazine Vol.19 「これからのWeb技術とテスト」</a> <br/>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="http://wacate.jp/magazine/vol046.html">WACATE-Magazine 最終号 「ソフトウェアの品質って何だろう」</a> <br/>
+                            </p>
+                        </div>
                     </div>
 
-                    <div class="work-item">
-                        <h4>リリース</h4>
-                        <p>うごく成果物</p>
-                        <ul style="list-style: none; padding: 0;">
-                            <li><i class="fa fa-circle-o"></i> <a target="_blank" href="http://forest.watch.impress.co.jp/article/2004/10/15/ayane.html">ayane v2.0.4</a></li>
-                            <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://github.com/snsk/ai_testing_metamorphic">AI製品のテスト手法：メタモルフィックテスティング</a></li>
-                            <li><i class="fa fa-circle-o"></i> <a target="_blank" href="https://github.com/snsk/ls_testing">lsコマンドのテストをアーキテクチャからテストケース導出まで一通り</a></li>
-                        </ul>
+                    <br><br>
+                    <hr>
+                    <br><br>
+
+                    <div class="row">
+                        <div class="col-lg-6 centered">
+                            <img src="assets/img/p03.png" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3>リリース</h3>
+                            <p>うごく成果物</p>
+                            <p>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="http://forest.watch.impress.co.jp/article/2004/10/15/ayane.html"> ayane v2.0.4 </a> <br/>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="https://github.com/snsk/ai_testing_metamorphic"> AI製品のテスト手法：メタモルフィックテスティング </a> <br/>
+                                <i class="fa fa-circle-o"></i> <a target="_blank" href="https://github.com/snsk/ls_testing"> lsコマンドのテストをアーキテクチャからテストケース導出まで一通り </a> <br/>
+                            </p>
+                        </div>
                     </div>
+
+                    <br><br>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Contact Section -->
-    <div class="section">
+    <div class="section" style="background: #ff7878; padding: 35px 0;">
         <div class="container">
-            <div class="row">
+            <div class="row centered">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h3>ソフトウェア品質に関するご相談</h3>
-                    <div style="background: #f9f9f9; padding: 2rem; border-left: 4px solid #000;">
-                        <p>
-                            品質、テスト開発、テスト自動化、開発プロセスに関するご相談等<br>
-                            その時に所属している会社として承ります。<br>
-                            メール、SNS等からお気軽にどうぞ。
-                        </p>
-                        <p class="mb-0">
-                            技術に関することはみんなでワイワイやるのが好きです。<br>
-                            何か興味を引くものがあればお気軽にお声掛けくださいね。
-                        </p>
-                    </div>
+                    <h3 style="color: white; font-weight: 700;">ソフトウェア品質に関するご相談</h3>
+                    <p style="color: white;">品質、テスト開発、テスト自動化、開発プロセスに関するご相談等<br>その時に所属している会社として承ります。<br>メール、SNS等からお気軽にどうぞ。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Community First Section -->
+    <div class="section" style="background: #ff7878; padding: 35px 0;">
+        <div class="container">
+            <div class="row centered">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h3 style="color: white; font-weight: 700;">COMMUNITY FIRST.</h3>
+                    <p style="color: white;">技術に関することはみんなでワイワイやるのが好きです。<br>何か興味を引くものがあればお気軽にお声掛けくださいね。</p>
                 </div>
             </div>
         </div>
@@ -186,20 +239,18 @@
     <div id="f">
         <div class="container">
             <div class="row centered">
-                <p>&copy; 2024 Shinsuke Matsuki. All rights reserved.</p>
-                <p>
-                    <a class="icon-link" target="_blank" href="https://github.com/snsk"><i class="fa fa-github"></i></a>
-                    <a class="icon-link" target="_blank" href="https://twitter.com/snsk"><i class="fa fa-twitter"></i></a>
-                    <a class="icon-link" target="_blank" href="https://note.com/_snsk/"><i class="fa fa-pencil-square"></i></a>
-                    <a class="icon-link" target="_blank" href="mailto:shinsk@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                </p>
+                <a target="_blank" href="https://twitter.com/snsk"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://github.com/snsk"><i class="fa fa-github"></i></a>
+                <a target="_blank" href="https://note.com/_snsk/"><i class="fa fa-pencil-square"></i></a>
             </div>
         </div>
     </div>
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type='text/javascript' src='https://www.messageleaf.jp/embed.js'></script>
+    <script>new MSGLF({ titleBgColor: '#FF7878', titleFontColor: '#FFFFFF', position: 'right', gadgetTitle: '感想を送る' }).changeDesign();</script>
     
     <!-- Custom scripts -->
     <script>
@@ -222,6 +273,16 @@
                 }
             });
         });
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-740587-6', 'snsk.github.io');
+      ga('send', 'pageview');
     </script>
 </body>
 </html>
