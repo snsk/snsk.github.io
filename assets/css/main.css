@@ -357,3 +357,10 @@ a:focus {
     color: #333;
     line-height: 1.8;
 }
+
+
+/* Mobile menu icon: bars were white on white */
+
+.navbar-inverse .navbar-toggle .icon-bar { background-color: #000000;  }
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus { background-color: #f0f0f0; }
